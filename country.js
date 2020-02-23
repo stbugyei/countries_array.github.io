@@ -28,7 +28,7 @@ generateDivs(worldCountries)
 const counlent = document.querySelector('.counlent')
 counlent.textContent = `Total number of countries ${worldCountries.length}`
 counlent.style.fontSize = '2.1rem'
-
+ 
 
 //========= search with start letter ===============
 
