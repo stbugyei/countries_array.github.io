@@ -28,6 +28,10 @@ body {
     min-height: auto;
     box-shadow: -4px 8px 33px -6px #9393b1;
 }
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
 
 .header {
     max-width: 100%;
@@ -153,12 +157,6 @@ select :hover {
     justify-content: flex-end;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .button {
-        width: 89%;
-    }
-}
-
 
 /* mediaquery*/
 
@@ -187,22 +185,6 @@ select :hover {
         width: 70%;
         padding: 10px;
         font-size: 10px;
-    }
-}
-
-
-/* mediaquery*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-    .header_text {
-        margin: 10px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .header_text {
-        margin: 10px;
-        padding-top: 63px;
     }
 }
 
@@ -400,7 +382,7 @@ ul.banner_item {
 
 @media (min-width: 320px) and (max-width: 480px) {
     .container_first_item {
-        width: 90%;
+        width: 50%;
         line-height: 3.5rem;
         margin: 5px;
         padding: 12px;
@@ -409,11 +391,17 @@ ul.banner_item {
     }
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .button_img--size {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .container_first_item {
-        width: 90%;
+        width: 45%;
         line-height: 3.5rem;
-        margin: -1px;
         padding: 34px;
         display: flex;
         justify-content: space-between;
@@ -427,7 +415,6 @@ ul.banner_item {
     padding: 40px;
 }
 
-
 /* mediaquery*/
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -436,7 +423,6 @@ ul.banner_item {
         padding: 6px;
     }
 }
-
 
 /* mediaquery*/
 
@@ -449,7 +435,6 @@ ul.banner_item {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .banner {
-        height: 43vh;
         max-width: 100%;
         /*margin: 12px; */
         padding: 0px 5px;
@@ -457,9 +442,14 @@ ul.banner_item {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .query {
+     margin-top: 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
     .header_text {
-        height: 43vh;
-        font-size: 24px;
+        margin: 15px;
         line-height: 2rem;
     }
 }
@@ -472,17 +462,26 @@ ul.banner_item {
 
 @media (min-width: 320px) and (max-width: 480px) {
     .button {
-        width: 293px;
         display: flex;
+        justify-content: flex-end;
+        margin-left: -120px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+/*@media (min-width: 320px) and (max-width: 480px) {
     .header_content {
         margin-top: 0px;
         margin-left: 0px;
     }
+}*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .button {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .header_content {
