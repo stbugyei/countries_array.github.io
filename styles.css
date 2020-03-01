@@ -408,8 +408,10 @@ p{
 
 @media (min-width: 320px) and (max-width: 480px) {
     .header_text {
+        font-size: 80px;
         margin: 15px;
         line-height: 2rem;
+
     }
 }
 
