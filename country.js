@@ -48,7 +48,7 @@ const startWithletter = () => {
     firstLetter.style.fontSize = '30px'
     length.style.color = 'blue'
     length.style.fontWeight = 'bold'
-    length.style.fontSize = '30px'
+    length.style.fontSize = '3.7rem'
     start.textContent = 'Countries Starting with'
     firstLetter.textContent = `${letters}`
     length.textContent = `${filteredCountry.length}`
