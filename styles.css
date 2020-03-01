@@ -348,6 +348,10 @@ ul.banner_item {
     padding-top: 50px;    
     margin: 5px;
 }
+
+p{
+    font-size: 3.5rem;
+}
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
