@@ -40,7 +40,6 @@ body {
     font-weight: bold;
     color: rgb(33, 23, 128);
     text-align: center;
-    /*background-color: #6440ad;*/
     display: flex;
     justify-content: left;
 }
@@ -50,7 +49,7 @@ body {
     margin-left: 40px;
     display: flex;
     margin-left: 200px;
-    /*justify-content: space-around;*/
+
 }
 
 .header_img {
@@ -124,8 +123,7 @@ p {
 
 input[type=text],
 select {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0px 10px 0px;
     width: 14%;
     padding: 9px;
     border: 1px solid rgb(122, 98, 245);
@@ -139,7 +137,7 @@ select {
 input[type=text]:hover,
 select :hover {
     width: 42%;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid rgb(64, 85, 204);
     border-radius: 4px;
     resize: vertical;
@@ -160,17 +158,15 @@ select :hover {
 @media (min-width: 320px) and (max-width: 480px) {
     input[type=text],
     select {
-        margin-top: 20px;
-        margin-bottom: 0px;
-        margin-left: 0px;
+        margin: 20px 0px;
         width: 40%;
-        padding: 10px;
+        padding: 20px;
         border: 1px solid #ccc;
         border-radius: 4px;
         resize: vertical;
         background: linear-gradient(to bottom, white 5%, white 100%);
         transition: all 2s;
-        margin-right: 0px;
+       
     }
 }
 
@@ -256,9 +252,9 @@ select :hover {
 @media (min-width: 320px) and (max-width: 480px) {
     .btn_btn--startwith {
         text-align: center;
-        font-size: 10px;
-        width: 87px;
-        padding: 5px 11px;
+        font-size: 20px;
+       /* width: 87px;
+        padding: 5px 11px;*/
     }
 }
 
@@ -269,9 +265,9 @@ select :hover {
     .btn_btn--include {
         text-align: center;
         font-size: 10px;
-        width: 87px;
+      /*  width: 87px;
         padding: 4px 8px;
-        margin-top: 2px;
+        margin-top: 2px;*/
     }
 }
 
@@ -350,9 +346,10 @@ ul.banner_item {
 
 @media (min-width: 320px) and (max-width: 480px) {
     .container_first_item {
-    width: 50%;
-    margin: 15px;
+    font-size: 16px;
+    width: 100%;
     padding: 12px;    
+    margin: 0px;
 }
 }
 
@@ -365,7 +362,7 @@ ul.banner_item {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .container_first_item {
-        width: 45%;
+        width: 100%;
         padding: 34px;
         border-bottom: 1px solid #040d29; 
     }
@@ -398,7 +395,6 @@ ul.banner_item {
 @media (min-width: 768px) and (max-width: 1024px) {
     .banner {
         max-width: 100%;
-        /*margin: 12px; */
         padding: 0px 5px;
     }
 }
@@ -425,17 +421,11 @@ ul.banner_item {
 @media (min-width: 320px) and (max-width: 480px) {
     .button {
         display: flex;
-        justify-content: flex-end;
-        margin-left: -120px;
+       justify-content: center;
+        width: 100%;
     }
 }
 
-/*@media (min-width: 320px) and (max-width: 480px) {
-    .header_content {
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-}*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .button {
