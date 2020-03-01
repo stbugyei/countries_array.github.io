@@ -253,8 +253,7 @@ select :hover {
     .btn_btn--startwith {
         text-align: center;
         font-size: 20px;
-       /* width: 87px;
-        padding: 5px 11px;*/
+
     }
 }
 
@@ -264,10 +263,8 @@ select :hover {
 @media (min-width: 320px) and (max-width: 480px) {
     .btn_btn--include {
         text-align: center;
-        font-size: 10px;
-      /*  width: 87px;
-        padding: 4px 8px;
-        margin-top: 2px;*/
+        font-size: 20px;
+     
     }
 }
 
@@ -346,10 +343,10 @@ ul.banner_item {
 
 @media (min-width: 320px) and (max-width: 480px) {
     .container_first_item {
-    font-size: 16px;
+    font-size: 20px;
     width: 100%;
-    padding: 12px;    
-    margin: 0px;
+    padding: 10px;    
+    margin: 10px;
 }
 }
 
