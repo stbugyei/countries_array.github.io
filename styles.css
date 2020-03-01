@@ -343,10 +343,10 @@ ul.banner_item {
 
 @media (min-width: 320px) and (max-width: 480px) {
     .container_first_item {
-    font-size: 20px;
     width: 100%;
-    padding: 10px;    
-    margin: 10px;
+    min-height: 20vh;
+    padding-top: 50px;    
+    margin: 5px;
 }
 }
 
